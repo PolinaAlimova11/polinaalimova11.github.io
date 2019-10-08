@@ -1,16 +1,78 @@
 <html>
   <head>
+	<style>
+		#one {
+		background-color: rgb(100,100,150);
+		color: rgb(50,50,50);
+		font-size: 15px;
+		}
+		#two {
+		background-color: rgb(215,170,215);
+		color: rgb(15,60,15);
+		font-size: 10px;
+		}
+		#three {
+		background-color: rgb(16,100,89);
+		color: rgb(212,235,190);
+		font-size: 5px;
+		}
+		.mom {
+		color: aqua;
+		font-size: 5px;
+		}
+		.dad {
+		color: red;
+		font-size: 10px;
+		}
+		table {
+		border: 1px solid black;
+		}
+		.white {
+		background-color: rgb(15,15,15);
+		color: rgb(230,230,230);
+		}
+		.black {
+		background-color: rgb(230,230,230);
+		color: rgb(15,15,15);
+		}
+	</style>
   </head>
   <body>
     <h1>Var # Alimova P.D. IU4-11B</h1>
     <div>
       <h2>Task 1</h2>
+	  <p id="one">One</p>
+	  <p id="two">Two</p>
+	  <p id="three">Three</p>
     </div>
      <div>
       <h2>Task 2</h2>
+	  <table>
+		<tr>
+		<td class="white"></td><td class="black"></td><td class="white"></td>
+		</tr>
+		<tr>
+		<td class="black"></td><td class="white"></td><td class="black"></td>
+		</tr>
+		<tr>
+		<td class="white"></td><td class="black"></td><td class="white"></td>
+		</tr>
+	  </table>
     </div>
      <div>
       <h2>Task 3</h2>
+	  <ul class="mom">
+	  <li>One</li>
+		<li><ul class="dad">
+			<li>one1</li>
+			<li>one2</li>
+		</ul></li>
+		 <li>Two</li>
+		<li><ul class="dad">
+			<li>two1</li>
+			<li>two2</li>
+		</ul></li>
+	  </ul>
     </div>
   </body>
 </html>
